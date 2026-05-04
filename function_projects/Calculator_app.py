@@ -22,7 +22,7 @@ def div():
         print("second  value is zero,so no divisible")
 
 while True:
-    print("===your calculator===")
+    print("\n===your calculator===")
     print("1.addition")
     print("2.substraction")
     print("3.multiplication")

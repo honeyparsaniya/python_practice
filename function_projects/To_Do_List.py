@@ -10,7 +10,7 @@ def view_task():
     if not tasks:
         print("no task in the list")
         return
-
+    print("---your future task---")
     for i, task in enumerate(tasks, 1):
         print(f"{i}. {task}")
 
@@ -23,13 +23,13 @@ def delete_task():
         print("task not found!")
 
 while True:
-    print("===to do list===")
+    print("\n===to do list===")
     print("1.add task")
     print("2.view task")
     print("3.delete task")
     print("4.exit")
 
-    ch=int(input("enter your choice=(1-4)="))
+    ch=int(input("enter your choice="))
 
     if ch==1:
         add_task()

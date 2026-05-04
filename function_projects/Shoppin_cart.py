@@ -23,7 +23,7 @@ def remove_item():
 
 
 while True:
-    print("--- Shopping Cart ---")
+    print("\n===Shopping Cart===")
     print("1. Add Item")
     print("2. View Cart")
     print("3. Remove Item")

@@ -30,7 +30,7 @@ def delete_contacts():
 
 
 while True:
-    print("===contact management system===")
+    print("\n===contact management system===")
     print("1.add contact")
     print("2.view contact")
     print("3.serch contact")

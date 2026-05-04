@@ -42,7 +42,7 @@ def serch_account():
         print("accound not found")
 
 while True:
-    print("---bank management---")
+    print("\n===bank management===")
     print("1.create account")
     print("2.view account")
     print("3.deposit amount")

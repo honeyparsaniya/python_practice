@@ -21,7 +21,7 @@ def find_data():
         print("student not found!")
 
 while True:
-    print("===student_mark_management===")
+    print("\n===student_mark_management===")
     print("1.add mark")
     print("2.view mark")
     print("3.find mark")
